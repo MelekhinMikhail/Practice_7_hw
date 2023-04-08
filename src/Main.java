@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Мелехин Михаил Тимофеевич");
+        System.out.println("РИБО-01-21");
+        System.out.println();
+
         Thread thread1 = new Thread(new MyRunnable(), "Thread-0");
         Thread thread2 = new Thread(new MyRunnable(), "Thread-1");
         Thread thread3 = new Thread(new MyRunnable(), "Thread-2");
